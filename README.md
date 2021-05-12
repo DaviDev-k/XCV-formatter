@@ -29,7 +29,7 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
   - Corregge le spaziature e altre imprecisioni
   - Indenta tutto il codice con 4 spazi, tranne la prima riga (*)
 - **Sistemi Operativi 1** – Bruno Crispo, IV semestre 2021 (`SO.py`)
-  - *Funziona per*: **elenchi** (maggior parte dei contenuti)
+  - *Funziona per*: **elenchi puntati** (maggior parte dei contenuti)
   - *Formato*: **Markdown**
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)

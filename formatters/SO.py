@@ -1,6 +1,6 @@
 """
 **Sistemi Operativi 1** – Bruno Crispo, IV semestre 2021 (`SO.py`)
-  - *Funziona per*: **elenchi** (maggior parte dei contenuti)
+  - *Funziona per*: **elenchi puntati** (maggior parte dei contenuti)
   - *Formato*: **Markdown**
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)
@@ -12,6 +12,7 @@ REPLACE = {
     'S.O.'  : 'SO',
     'S.O'   : 'SO',
     'S. O.' : 'SO',
+    ' à '   : '  `→`  ',
     'á'     : 'à',
     'ú'     : 'ù',
     'o’'    : 'ò',
