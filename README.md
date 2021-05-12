@@ -3,10 +3,12 @@
 Formatta il testo copiato da slides in PDF per adattarlo ad appunti in altri formati testuali.
 
 
+
 ## Funzionalità
 
 Gli script qui presenti permettono di formattare il testo presente negli appunti, copiato da slides in formato PDF, per adattarlo alla sintassi desiderata.
 Il testo abbellito viene copiato negli appunti in modo da essere subito disponibile per incollarlo a destinazione.
+
 
 
 ## Utilizzo
@@ -16,6 +18,7 @@ Il testo abbellito viene copiato negli appunti in modo da essere subito disponib
 3. Premere la combinazione di tasti <kbd>Ctrl</kbd>+<kbd>X</kbd>+<kbd>C</kbd> per copiare il testo
 4. Incollare il testo formattato a destinazione
 5. Premere <kbd>Ctrl</kbd>+<kbd>Esc</kbd> quando si vuole terminare l'esecuzione
+
 
 
 ## Lista dei PDF supportati
@@ -38,6 +41,7 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
   - Corregge alcune imperfezioni
 
 (*) Non sono presenti informazioni nel testo originale per definire livelli inferiori
+
 
 
 ## Collaborazioni
