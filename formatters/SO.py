@@ -21,6 +21,7 @@ REPLACE = {
     ' piu ' : ' più ',
     'Della thread' : 'Del thread',
     'della thread' : 'del thread',
+    'sola thread'  : 'solo thread',
     'La thread'    : 'Il thread',
     'la thread'    : 'il thread',
     'Una thread'   : 'Un thread',
