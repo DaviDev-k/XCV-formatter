@@ -17,7 +17,16 @@ REPLACE = {
     'á'     : 'à',
     'ú'     : 'ù',
     'o’'    : 'ò',
-    ' piu ' : ' più '
+    ' piu ' : ' più ',
+    'Della thread' : 'Del thread',
+    'della thread' : 'del thread',
+    'La thread'    : 'Il thread',
+    'la thread'    : 'il thread',
+    'Una thread'   : 'Un thread',
+    'una thread'   : 'un thread',
+    'Le thread'    : 'I threads',
+    'le thread'    : 'i threads',
+    'hreadss'      : 'hreads'
 }
 
 
