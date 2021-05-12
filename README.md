@@ -25,14 +25,14 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
 #### UniTN – DISI
 
 - **Algoritmi e Strutture Dati** – Alberto Montresor, III-IV semestre 2020-2021 (`ASD.py`)
-  - <u>Funziona per</u>: **blocchi di pseudocodice**
-  - <u>Formato</u>: **Markdown**
+  - *Funziona per*: **blocchi di pseudocodice**
+  - *Formato*: **Markdown**
   - Genera un blocco di codice (`` ```pseudocode {...} ``` ``)
   - Corregge le spaziature e altre imprecisioni
   - Indenta tutto il codice con 4 spazi, tranne la prima riga (*)
 - **Sistemi Operativi 1** – Bruno Crispo, IV semestre 2021 (`SO.py`)
-  - <u>Funziona per</u>: **elenchi** (maggior parte dei contenuti)
-  - <u>Formato</u>: **Markdown**
+  - *Funziona per*: **elenchi** (maggior parte dei contenuti)
+  - *Formato*: **Markdown**
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)
   - Corregge alcune imperfezioni
