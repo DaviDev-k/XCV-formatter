@@ -3,7 +3,7 @@
 
 ## Funzionalità
 
-Gli script qui presenti permettono di formattare il testo presente negli appunti, copiato da slides in formato PDF, per adattarlo alla sintassi desiderata.
+Gli script qui presenti (`python >= 3.9`) permettono di formattare il testo presente negli appunti, copiato da slides in formato PDF, per adattarlo alla sintassi desiderata.
 Il testo abbellito viene copiato negli appunti in modo da essere subito disponibile per incollarlo a destinazione.
 
 
@@ -31,6 +31,7 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
 - **Sistemi Operativi 1** – Bruno Crispo, IV semestre 2021 (`SO.py`)
   - *Funziona per*: **elenchi puntati** (maggior parte dei contenuti)
   - *Formato*: **Markdown**
+  - *Note*: selezionare l'intera slide, titolo compreso
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)
   - Corregge alcune imprecisioni
