@@ -1,4 +1,8 @@
-"""[Specifica del corso]"""
+# Documentazione mostrata a video all'occorrenza
+"""
+[Nome corso] – [Docente], [Semestre] [Anno accademico]
+{ Eventuale descrizione }
+"""
 
 
 # Lista delle sostituzioni preliminari

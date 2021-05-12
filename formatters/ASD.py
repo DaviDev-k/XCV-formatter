@@ -1,4 +1,11 @@
-"""Algoritmi e Strutture Dati – Alberto Montresor, III-IV semestre 2020-2021"""
+"""
+**Algoritmi e Strutture Dati** – Alberto Montresor, III-IV semestre 2020-2021 (`ASD.py`)
+  - *Funziona per*: **blocchi di pseudocodice**
+  - *Formato*: **Markdown**
+  - Genera un blocco di codice (`` ```pseudocode {...} ``` ``)
+  - Corregge le spaziature e altre imprecisioni
+  - Indenta tutto il codice con 4 spazi, tranne la prima riga (*)
+"""
 
 
 REPLACE = {

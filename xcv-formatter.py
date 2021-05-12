@@ -2,14 +2,30 @@ import os
 import pyperclip
 from pynput.keyboard import Key, Listener
 
+
 COMBINATION = {"key.ctrl", "'x'", "'c'"}  # lowercase
 current = set()
 
+
+print('Formatters disponibili:')
 pdflist = [file.removesuffix('.py') for file in os.listdir('formatters') if file[-3:] == '.py']
 for i in range(len(pdflist)):
     print(str(i + 1) + '. ' + pdflist[i])
-pdf = int(input('Cosa studi oggi? ')) - 1
-module = __import__('formatters.' + pdflist[pdf], fromlist=[pdflist[pdf]])
+pdf = ''
+print()
+while pdf not in map(str, range(1, len(pdflist) + 1)):
+    pdf = input('Cosa studi oggi? ')
+pdf = pdflist[int(pdf) - 1]
+module = __import__('formatters.' + pdf, fromlist=[pdf])
+
+
+print('\n==== ' + pdf + ' ====')
+print(module.__doc__)
+print('=' * (10 + len(pdf)) + '\n')
+print('Tastiera in ascolto:')
+print(' - Ctrl+X+C per copiare e formattare')
+print(' - Ctrl+Esc per terminare')
+print('\nBuono studio!')
 
 
 def format(replacements, form):
@@ -37,10 +53,6 @@ def on_release(key):
     except KeyError:
         pass
     
-
-print('\nTastiera in ascolto!')
-print(' - Ctrl+X+C per copiare e formattare')
-print(' - Ctrl+Esc per terminare')
 
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
