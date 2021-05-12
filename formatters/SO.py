@@ -3,6 +3,7 @@
   - *Funziona per*: **elenchi puntati** (maggior parte dei contenuti)
   - *Formato*: **Markdown**
   - *Note*: selezionare l'intera slide, titolo compreso
+  - *Problemi noti*: non funziona con elenchi ordinati
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)
   - Corregge alcune imprecisioni
