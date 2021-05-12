@@ -1,3 +1,6 @@
+"""Sistemi Operativi 1 – Bruno Crispo, IV semestre 2021"""
+
+
 REPLACE = {
     'S.O.'  : 'SO',
     'S.O'   : 'SO',

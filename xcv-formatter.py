@@ -13,10 +13,10 @@ module = __import__('formatters.' + pdflist[pdf], fromlist=[pdflist[pdf]])
 
 
 def format(replacements, form):
-    code = pyperclip.paste()
+    clip = pyperclip.paste()
     for old in replacements:
-        code = code.replace(old, replacements[old])
-    pyperclip.copy(form(code))
+        clip = clip.replace(old, replacements[old])
+    pyperclip.copy(form(clip))
 
 
 def on_press(key):

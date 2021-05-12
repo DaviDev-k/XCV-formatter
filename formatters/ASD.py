@@ -1,3 +1,6 @@
+"""Algoritmi e Strutture Dati – Alberto Montresor, III-IV semestre 2020-2021"""
+
+
 REPLACE = {
     '( '      : '(',
     ' )'      : ')',
