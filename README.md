@@ -35,7 +35,7 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
   - Dispone il testo in un elenco di (soli) due livelli (*)
   - Corregge alcune imperfezioni
 
-(*) Non sono presenti informazioni nel testo originale per definire livelli inferiori
+(*) Non sono presenti informazioni nel testo originale per definire altri livelli
 
 
 ## Collaborazioni
