@@ -43,6 +43,6 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
 ## Collaborazioni
 
 È possibile creare il proprio insieme di regole usando il file `form.py` come template:
-- Copiare il template nella cartella `formatters`
-- Rinominare il file a piacere
-- Modificare il file con il proprio insieme di sostituzioni e regole
+1. Copiare il template nella cartella `formatters`
+2. Rinominare il file a piacere
+3. Modificare il file con il proprio insieme di sostituzioni e regole
