@@ -1,4 +1,4 @@
-# XCV formatter
+![XCV.png](XCV.png)
 Formatta il testo copiato da slides in PDF per adattarlo ad appunti in altri formati testuali.
 
 
@@ -36,4 +36,12 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
   - Dispone il testo in un elenco di (soli) due livelli (*)
   - Corregge alcune imperfezioni
 
-(*) Non sono presenti informazioni nel testo di origine per definire livelli superiori
+(*) Non sono presenti informazioni nel testo originale per definire livelli inferiori
+
+
+## Collaborazioni
+
+È possibile creare il proprio insieme di regole usando il file `form.py` come template:
+- Copiare il template nella cartella `formatters`
+- Rinominare il file a piacere
+- Modificare il file con il proprio insieme di sostituzioni e regole
