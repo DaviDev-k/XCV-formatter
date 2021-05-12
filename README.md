@@ -33,7 +33,7 @@ Funziona correttamente per le seguenti raccolte di slide, o per porzioni di esse
   - *Formato*: **Markdown**
   - Marca la prima riga come titolo h3 (`###`)
   - Dispone il testo in un elenco di (soli) due livelli (*)
-  - Corregge alcune imperfezioni
+  - Corregge alcune imprecisioni
 
 (*) Non sono presenti informazioni nel testo originale per definire altri livelli
 
