@@ -1,4 +1,4 @@
-"""[Nome del corso]"""
+"""[Specifica del corso]"""
 
 
 # Lista delle sostituzioni preliminari
