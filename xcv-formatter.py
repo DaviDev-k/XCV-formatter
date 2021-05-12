@@ -1,12 +1,15 @@
 import os
+import sys
 import pyperclip
-from pynput.keyboard import Key, Listener
+from pynput import keyboard
 
 
-COMBINATION = {"key.ctrl", "'x'", "'c'"}  # lowercase
-current = set()
+# Keymap
+COPY = '<ctrl>+x+c'
+EXIT = '<ctrl>+<esc>'
 
 
+# Formatter selection
 print('Formatters disponibili:')
 pdflist = [file.removesuffix('.py') for file in os.listdir('formatters') if file[-3:] == '.py']
 for i in range(len(pdflist)):
@@ -19,6 +22,7 @@ pdf = pdflist[int(pdf) - 1]
 module = __import__('formatters.' + pdf, fromlist=[pdf])
 
 
+# Print info
 print('\n==== ' + pdf + ' ====')
 print(module.__doc__)
 print('=' * (10 + len(pdf)) + '\n')
@@ -28,6 +32,7 @@ print(' - Ctrl+Esc per terminare')
 print('\nBuono studio!')
 
 
+# Paste, replace, format, copy
 def format(replacements, form):
     clip = pyperclip.paste()
     for old in replacements:
@@ -35,24 +40,16 @@ def format(replacements, form):
     pyperclip.copy(form(clip))
 
 
-def on_press(key):
-    try:
-        if str(key).lower() in COMBINATION:
-            current.add(str(key).lower())
-            if all(k in current for k in COMBINATION):
-                format(module.REPLACE, module.form)
-        elif key == Key.esc and "key.ctrl" in current:
-            return False
-    except AttributeError:
-        pass
+def format_wrapper():
+    format(module.REPLACE, module.form)
 
 
-def on_release(key):
-    try:
-        current.remove(str(key).lower())
-    except KeyError:
-        pass
-    
-
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+# Main: keyboard listener
+try:
+    with keyboard.GlobalHotKeys({
+        COPY: format_wrapper,
+        EXIT: sys.exit
+    }) as h:
+        h.join()
+except ValueError:
+    pass
