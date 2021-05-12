@@ -1,4 +1,5 @@
 ![XCV.png](XCV.png)
+
 Formatta il testo copiato da slides in PDF per adattarlo ad appunti in altri formati testuali.
 
 
